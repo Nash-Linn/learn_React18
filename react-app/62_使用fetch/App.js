@@ -21,7 +21,6 @@ const App = () => {
             .then((res) => {
                 // response表示响应信息
                 // console.log(res);
-				
                 return res.json();// 该方法可以将响应的json直接转换为js对象
             })
             .then(data => {
@@ -29,7 +28,6 @@ const App = () => {
                 setStuData(data.data);
             })
             .catch(() => {
-				
             });
 
     }, []);

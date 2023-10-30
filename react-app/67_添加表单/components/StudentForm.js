@@ -29,7 +29,7 @@ const StudentForm = () => {
         console.log(inputData);
     }
 
-	Subm
+
 
     return (
         <tr className="student-form">
